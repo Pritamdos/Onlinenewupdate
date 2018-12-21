@@ -96,8 +96,11 @@ Comment Ended */
 																		</span>
 																	</span>
 																</div>
+																<span class="label-display">
+																   <label id="page_msg1" class="label-display1">1</label> page / <label value="250" id="page_msg2" >250</label> Words												
+                                                                   
+																</span>
 																					
-																<label id="page_msg1" >1</label> page / <label value="250" id="page_msg2" >250</label> Words												
 															</div>
 															
 															<div class="stp-right">
@@ -175,7 +178,7 @@ Comment Ended */
 														</div>	
 													</div>
 													
-													<div class="get-each-sec">
+													<div class="descriptions">
 														<span class="reason-for-callback">
 														   Description
 														</span>
@@ -184,8 +187,8 @@ Comment Ended */
 														</div>
 												   </div>
 												   
-												   <div class="get-each-sec">
-														<input type="file" name="file"><br><br>
+												   <div class="get-each-sec files-upp">
+														<input type="file" name="file" id="file-input"><br><br>
 												   </div>
 												   
 												   <input type = "hidden" id="ovalidate" name="ovalidate" value = "<?php /* echo $_SESSION['email']; */ ?>" /> 

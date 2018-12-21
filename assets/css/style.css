@@ -29,7 +29,7 @@ body
     background-attachment: fixed;
     background-size:cover;
     position: relative;
-    height:85vh;
+    height:90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2716,7 +2716,7 @@ span.usr-info-icons img
 {
     float: left;
     text-decoration: none;
-    background: rgba(59, 155, 185,0.7);
+    background: (59, 155, 185,0.7);
     padding: 10px 35px;
     border-radius: 5px;
     color: #fff;
@@ -2825,13 +2825,20 @@ span.users-pp
     height: 40px;
     width: 35px;
     left: 0;
-    z-index: 99;
+    z-index: 999;
     border-radius: 2px 0 0 2px;
     background: #3b9bb9;
     display: flex;
     justify-content: center;
     align-items: center;
     color:#fff;
+}
+span.label-display 
+{
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #666;
 }
 .notif-item
 {
@@ -2867,12 +2874,106 @@ span.users-pp
 }
 .card-inner-section:hover,.card-inner-section-work:hover,.card-inner-section-assignment:hover
 {
-    background:#ffcb9a;
+    background:rgba(59, 155, 185,0.7);
     transition:0.5s ease;
 }
 .card-inner-section:hover .card-sp,.card-inner-section-work:hover .inner-test ul li,.card-inner-section-assignment:hover .card-online-list ul li,
 .card-inner-section-assignment:hover  span.card-assignment-online,.card-inner-section-work:hover .card-online-list ul li
 
+{
+    color:#fff!important;
+}
+.user-header .nav-headers
+{
+    background: #3b9bb9;
+}
+.user-header .nav-headers .nav a,.user-header .nav-headers  .nav a:active, .user-header .nav-headers  .nav a:visited
+{
+  color:#fff!important;
+}
+span.user-pf
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+}
+span.user-pf img
+{
+    height:100%;
+    width:100%;
+    float: left;
+}
+li.nav-submenu.uu {
+    float: right;
+    margin-top: 15px;
+    width:200px;
+}
+.us-dd
+{
+    float: left;
+    padding:0!important;
+}
+.uu .nav ul ul
+{
+    top:56px;
+}
+span.nann {
+    width: calc(100% - 50px);
+    float: left;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 16px;
+}
+ul.mega-menus.user-profile 
+{
+    top: 54px!important;
+    width: 100%;
+    float: left;
+    border-radius: 0 0 2px 2px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0px 20px rgba(0,0,0,.2);
+}
+span.onl 
+{
+    height: 8px;
+    width: 8px;
+    float: left;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 41px;
+    top: 14px;
+}
+button.logout-btn
+{
+    background: transparent;
+    color: #666;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    line-height: 35px;
+}
+button.logout-btn:focus
+{
+    outline:none!important;
+}
+.user-header  .drop-arrow
+{
+    color: #fff!important;
+
+}
+.user-header  .drop-arrows
+{
+    color: #fff!important;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.user-header  .nav-button, .user-header  .nav-close
 {
     color:#fff!important;
 }
@@ -2932,6 +3033,20 @@ li.news-list-li:before
     width: 30%;
     float: left;
     padding-right:10px;
+}
+.descriptions 
+{
+    width: 100%;
+    float: left;
+    padding: 0 30px 0 20px;
+    margin-bottom: 20px;
+}
+.files-upp
+{
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
 ul.news-list-li 
 {
@@ -3672,6 +3787,14 @@ span.rv-details {
     line-height: 20px;
     margin: 0;
 }
+ul.mega-menus.user-profile li a
+{
+    color:#666!important;
+}
+.user-header .nav-headers .nav ul .uu .user-profile a
+{
+    color:#666!important;
+}
 .rvt-bottm-se 
 {
     width: 100%;
@@ -4124,7 +4247,39 @@ span.wd
       bottom:0;
       z-index:999;
   }
- 
+  label[for="file-input"] 
+  {
+      display: block;
+      margin-bottom: 1em;
+      font-size: 1em;
+      color: #fff;
+      opacity: .9;
+      font-weight: bold;
+    }
+    
+    input[type="file"] 
+    {
+      cursor: pointer !important;
+    }
+    input[type="file"]::-webkit-file-upload-button 
+    {
+  
+      background: #3b9bb9;
+      border: 0;
+      padding:10px 20px;
+      cursor: pointer;
+      color: #fff;
+      border-radius: .2em;
+    }
+    input[type="file"]::-ms-browse 
+    {
+      background:#3b9bb9;
+      border: 0;
+      padding:10px 20px;
+      cursor: pointer;
+      color: #fff;
+      border-radius: .2em;
+    }
   
   /****** CODE ******/
   
@@ -4169,6 +4324,15 @@ span.wd
     .only-fotter-sectios-left, .only-fotter-sectios-middle, .only-fotter-sectios-right,.only-fotter-sectios-corners{width:50%!important;}
     span.world-abouts,.world-abouts-orders{font-size:24px;line-height:32px!important;}
     .dash-cont-online-assigmnets{padding:30px 0!important;}
+    .descriptions{padding:0 20px!important;}
+    span.nann{width:inherit!important;}
+    ul.mega-menus.user-profile{top:0!important;}
+    .user-header .nav-headers .nav ul .uu .user-profile a,button.logout-btn
+    {
+        color:#fff!important;
+    }
+    .user-header .drop-arrows{top:20px!important;}
+    li.nav-submenu.uu{width:100%!important;float:left!important;}
     .dash-cont{padding:30px 30px!important;}
     span.welcome-online-help{font-size:22px!important;line-height:32px!important}
     .onl-sub-inners-left-section{width:100%!important;}

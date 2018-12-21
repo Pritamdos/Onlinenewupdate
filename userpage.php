@@ -61,57 +61,215 @@ Comment Ended */
    </head>
    
    <body class="users">
-   
-      <!--- Header --->
-      <div class="onl-header-section userpages-headers" id="top">
-			<div class="nav-headers userpages">
-      	   <div class="logo-onli">
-               <a href="index.php">
-                  <img src="./assets/images/OAH-newLogo.png" class="logg" />
-               </a>
+   <div class="onl-header-section user-header" id="top">
+        <div class="nav-headers">
+            <div class="logo-onli">
+                <a href="index.php">
+                    <img src="./assets/images/OAH-newLogo.png" class="logg" />
+                </a>
+
             </div>
-          
-				<a href="#" class="nav-button">
-				 <i class="fa fa-bars" aria-hidden="true"></i>
-			   </a>
-			   
-			   <div class="nav-order">
-				   <nav class="nav">
-						<ul>
-							<li class="nav-submenu">	
-							   <a href="#">
-								   Services
-								   <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> -->
-								   <i class="material-icons drop-arrow">expand_more</i>
-								</a>
-								
-								<ul class="mega-menus">
-								
-								</ul>
-				         </li>
-						   
-						   <li>
-								<a href="order.php"> Order Now </a>
-							</li>
-							
-							<li>
-								<a href="experts.php">Experts</a>
-							</li>
-							
-							<li>
-							  <?php /* echo $_SESSION['email']; */ ?>
-							</li>
-							
-							<li>
-								<button type="submit" onclick="window.location.href='logout.php'" class="order-now-users">
-									Logout
-								</button>
-							</li>
-				      <ul>
-			      </nav>
-				</div>
-         </div>
-		</div>
+            <a href="#" class="nav-button">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            <div class="nav-order">
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-submenu">
+                            <a href="#">Services
+                                <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> -->
+                                <i class="material-icons drop-arrow">expand_more</i>
+                            </a>
+                            <ul class="mega-menus">
+                                <li>
+                                    <a href="#">Menu1</a>
+                                </li>
+                                <li class="nav-submenu">
+                                    <a href="#">Menu2
+                                        <i class="material-icons drop-arrow-right">chevron_right</i>
+                                        <!-- <i class="fa fa-arrow-right right-arrows" aria-hidden="true"></i> -->
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sub menu1</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                            <li class="nav-submenu">
+                                                <a href="#">Submenu2
+                                                    <li class="nav-submenu">
+                                                        <a href="#">Menu2
+                                                            <i class="material-icons drop-arrow-right">chevron_right</i>
+                                                            <!-- <i class="fa fa-arrow-right right-arrows" aria-hidden="true"></i> -->
+                                                        </a>
+                                                        
+                                                    </li>
+                                                </a>
+                                            </li>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2
+                                                <li class="nav-submenu">
+                                                    <a href="#">Menu2
+                                                        <i class="material-icons drop-arrow-right">chevron_right</i>
+                                                        <!-- <i class="fa fa-arrow-right right-arrows" aria-hidden="true"></i> -->
+                                                    </a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Sub menu1</a>
+                                                        </li>
+                                                        <li class="nav-submenu">
+                                                            <a href="#">Submenu2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Submenu3</a>
+                                                        </li>
+                                                        <li class="nav-submenu">
+                                                            <a href="#">Submenu2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Submenu3</a>
+                                                        </li>
+                                                        <li class="nav-submenu">
+                                                            <a href="#">Submenu2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Submenu3</a>
+                                                        </li>
+                                                        <li class="nav-submenu">
+                                                            <a href="#">Submenu2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Submenu3</a>
+                                                        </li>
+                                                        <li class="nav-submenu">
+                                                            <a href="#">Submenu2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Submenu3</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Menu3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Menu4</a>
+                                </li>
+                                <li class="nav-submenu">
+                                    <a href="#">Menu2
+                                        <i class="material-icons drop-arrow-right">chevron_right</i>
+                                        <!-- <i class="fa fa-arrow-right right-arrows" aria-hidden="true"></i> -->
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Sub menu1</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                        <li class="nav-submenu">
+                                            <a href="#">Submenu2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Submenu3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="reviews.php">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="experts.php">Experts</a>
+                        </li>
+
+                        <li>
+                            <a href="login.php">Login</a>
+						</li>
+						<li class="nav-submenu uu">
+                            <a href="#" class="us-dd">
+								<span class="user-pf">
+									 <img src="./assets/images/profile-pic.jpg"/>
+								</span>
+								<span class="onl">
+                                </span>
+								<span class="nann">
+								   Pritam Kumar soni
+								</span>
+                                <i class="material-icons drop-arrows">expand_more</i>
+                            </a>
+                            <ul class="mega-menus user-profile" style="display:none;">
+                                <li>
+                                    <a href="#"  class="">Profile</a>
+								</li>
+								<li>
+                                    <a href="#" class="">User Details</a>
+								</li>
+								<li>
+									<button type="submit" onclick="window.location.href='order.php'" class="logout-btn">
+										Order now
+									</button>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+</div>
 	   <!--- Header Ended --->
 	   
 	   <!--- Notification Started --->

@@ -419,6 +419,7 @@ span.get-call
 .left-s-get {
     width:30%;
     float: left;
+    padding-right:5px;
 }
 .right-s-get 
 {
@@ -431,7 +432,7 @@ select.selects-drop
 {
     width: 100%;
     float: left;
-    height: 36px;
+    height:40px;
     border: 1px solid #ccc;
     border-radius: 2px;
     color: #666;
@@ -462,7 +463,7 @@ select.selects-drops:focus
 
 .right-s-get  input[type="number"],.right-s-get  input[type="text"]  
 {
-    height: 36px;
+    height:40px;
     border: 1px solid #ccc;
     border-radius: 2px;
     padding: 0 10px;

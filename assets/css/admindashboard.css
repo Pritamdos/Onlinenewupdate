@@ -702,11 +702,10 @@ span.users-pp
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:10px;
 }
 .profile-inner-sections 
 {
-  width: 50%;
+  width:70%;
   margin:0 auto;
 }
 span.admin-name 
