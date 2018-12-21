@@ -228,7 +228,7 @@
 									Comment Ended */
 									?>
 									
-									                            <div class="card-outer-online-reviews zoomIn animatable">
+							<div class="card-outer-online-reviews zoomIn animatable">
                                 <div class="card-inner-section-reviews" id="reviews-deatil-open">
                                     <div class="rv-outers-top">
                                         <div class="rv-left-top">
@@ -289,19 +289,41 @@
                             <div class="card-outer-online-reviews-right zoomIn animatable">
                                     <div class="card-inner-section-reviews-right">
                                          <span class="latest-news">Latest News</span>
-                                         Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                        
+                                         <ul class="news-list-li">
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                         </ul>
                                     </div>
                             </div>
                             <div class="card-outer-online-reviews-right zoomIn animatable">
                                     <div class="card-inner-section-reviews-right">
                                          <span class="latest-news">Latest Reviews</span>
-                                         <img src="./assets/images/EXPERTS.jpg"/>
+                                         <ul class="news-list-li">
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                         </ul>
                                     </div>
                             </div>
                             <div class="card-outer-online-reviews-right zoomIn animatable">
                                     <div class="card-inner-section-reviews-right">
                                          <span class="latest-news">Latest Update</span>
-                                         <img src="./assets/images/PREMIUM.jpg"/>
+                                         <ul class="news-list-li">
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                             <li class="news-list-li">
+                                                Avail unbelievable discounts of upto 30% on all assignments, dissertations, essays and homework 
+                                             </li>
+                                         </ul>
                                     </div>
                             </div>
                         </div>

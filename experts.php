@@ -77,48 +77,48 @@ Comment Ended */
         <div class="experts-inner-views animatable zoomIn">
            <div class="left-top-sections">
                <span class="left-top-section-contains">
-                   <span class="lef-ft-tp animatable fadeInLeft">
+                   <span class="lef-ft-tp animatable">
                        Commitment
                    </span>
                </span>
                <span class="left-bottm-section-contains">
-                   <span class="lt-ft-bt animatable  fadeInLeft">
+                   <span class="lt-ft-bt animatable ">
                        On-time delivery is the prime commitment of our writers. This is one aspect where they’re never willing to compromise.
                    </span>
                </span>
            </div>
            <div class="right-top-sections">
                <span class="right-top-section-contains">
-                   <span class="rig-ft-tp animatable  fadeInRight">
+                   <span class="rig-ft-tp animatable">
                       Quality
                    </span>
                </span>
                <span class="right-tp-section-contains">
-                   <span class="rt-ft-bt animatable fadeInRight">
+                   <span class="rt-ft-bt animatable">
                       The ability to craft quality solutions with flawless structure and impeccable language is one of the hallmarks of our experts.
                    </span>
                </span>
            </div>
            <div class="left-bottoms-sections">
                <span class="lefts-bottms-section-contains">
-                   <span class="lt-btm-ft-tp animatable fadeInLeft">
+                   <span class="lt-btm-ft-tp animatable">
                        Qualification
                    </span>
                </span>
                <span class="left-botts-section-contains">
-                   <span class="lt-bt-ft-bt animatable fadeInLeft">
+                   <span class="lt-bt-ft-bt animatable">
                        With degrees obtained from reputed universities worldwide, our writers match their expertise to their intellect.
                    </span>
                </span>
            </div>
            <div class="right-bottoms-sections">
                <span class="rights-botttms-section-contains">
-                   <span class="rt-bttmm-ft-tp animatable fadeInRight">
+                   <span class="rt-bttmm-ft-tp animatable">
                       Originality
                    </span>
                </span>
                <span class="rt-bottss-section-contains">
-                   <span class="rts-rt-ft-bt animatable fadeInRight">
+                   <span class="rts-rt-ft-bt animatable">
                    Each carefully crafted assignment is infused with unique inputs by our experts that put our solutions in a league of their own. 
                    </span>
                </span>

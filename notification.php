@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="notify-outer-poposs">
-                    <div class="notif-item notif-item-items animated slideInUp slideInDown hide">
+                    <div class="notif-item notif-item-items animatable slideInUp slideInDown hide">
                         <div class="notify-inners-sec">
                              <div class="cross-ss">
                                 <span class="closed-iconss" id="slide-down">
@@ -27,7 +27,7 @@
                                                 Online Assignment Help
                                               </span>
                                                 <span class="thumb-sc">
-                                                    <span class="thumb-iconss animated zoomIn  swing">
+                                                    <span class="thumb-iconss animatable zoomIn  swing">
                                                        <i class="fa fa-phone calls" aria-hidden="true"></i>
                                                     </span>
 

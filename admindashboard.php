@@ -516,54 +516,76 @@ Comment Ended */
 					<span class="order-details-headings">
 						Add Review of User
 					<span>
-				</div>
-				<form method="post" action="connection.php" enctype="multipart/form-data">
+                </div>
+                <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                           History of Add Review of User
+					
+                        <span>
+                        <span class="exports-files">
+                           <button type="submit" id="subscriber_excel" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
+                        <span>
+                </div>
+				<form method="post" action="connection.php" enctype="multipart/form-data" class="ff-sec">
 					<div class="profile-inner-sections">
 						<div class="profile-user-details-info">     
 							<div class="form-sections-profiles">
 								<div class="form-inner-sections-profiles">
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_header" id="rev_header" placeholder="Enter Header for Review" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-envelope" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_scount" id="rev_scount" placeholder="Enter Star Rating" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-star" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_pcount" id="rev_pcount" placeholder="Enter Page count" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-file-photo-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_dcount" id="rev_dcount" placeholder="Enter No. of Days Taken" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<textarea placeholder="Please Enter Review..." name="rev_review" id="rev_review" class="textareas" required="true" ></textarea>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_userid" id="rev_userid" placeholder="Enter User Unique Id" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-envelope" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="rev_country" id="rev_country" placeholder="Enter Country" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-edit" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="get-each-sec">
-										<input type="file" name="file"><br><br>
-									</div>
+                                    <div class="ad-lt">
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_header" id="rev_header" placeholder="Enter Header for Review" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_scount" id="rev_scount" placeholder="Enter Star Rating" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_pcount" id="rev_pcount" placeholder="Enter Page count" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-file-photo-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_country" id="rev_country" placeholder="Enter Country" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-edit" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="get-each-sec file-uplad">
+										   <input type="file" name="file" id="file-input"><br><br>
+									    </div>
+                                    </div>
+                                    <div class="ad-rt">
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_dcount" id="rev_dcount" placeholder="Enter No. of Days Taken" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <textarea placeholder="Please Enter Review..." name="rev_review" id="rev_review" class="textareas" required="true" ></textarea>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="rev_userid" id="rev_userid" placeholder="Enter User Unique Id" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        
+                                    </div>
+									
+									
+									
+									
 									<div class="submit-buttin-sections">
 										<button type="submit" class="save" name="reviewsubmit">
 										   SAVE
@@ -588,66 +610,88 @@ Comment Ended */
 					<span class="order-details-headings">
 						Add Expert
 					<span>
-				</div>
-				<form method="post" action="connection.php" enctype="multipart/form-data">
+                </div>
+                <div class="order-details-sec-history">
+                        <span class="order-details-headings">
+                           History of Add Review of User
+					
+                        <span>
+                        <span class="exports-files">
+                           <button type="submit" id="subscriber_excel" class="exports">
+                             <span class="exp">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                             </span>
+                             Export</button>
+                        <span>
+                </div>
+				<form method="post" action="connection.php" enctype="multipart/form-data" class="ff-sec">
 					<div class="profile-inner-sections">
 						<div class="profile-user-details-info">     
 							<div class="form-sections-profiles">
 								<div class="form-inner-sections-profiles">
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_name" id="exp_name" placeholder="Enter Expert Name" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-envelope" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-									   <textarea placeholder="Please Expert Qualification..." name="exp_qualification" id="exp_qualification" class="textareas" required="true" ></textarea>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_specialization" id="exp_specialization" placeholder="Enter expert specialization" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-file-photo-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_email" id="exp_email" placeholder="Enter expert email" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_client_rating" id="exp_client_rating" placeholder="Enter client Rating" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_location" id="exp_location" placeholder="Enter location" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_order_c" id="exp_order_c" placeholder="Enter Order Completed" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_order_p" id="exp_order_p" placeholder="Enter Order Pending" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="each-rows-inputs">
-										<input type="text" name="exp_status" id="exp_status" placeholder="Enter Hiring Status (1-2)" required="true" />
-										<span class="users-pp">
-											<i class="fa fa-clock-o" aria-hidden="true"></i>
-										</span>
-									</div>
-									<div class="get-each-sec">
-										<input type="file" name="file"><br><br>
-									</div>
+                                    <div class="ad-lt">
+                                            <div class="each-rows-inputs">
+                                                <input type="text" name="exp_name" id="exp_name" placeholder="Enter Expert Name" required="true" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                            <div class="each-rows-inputs">
+                                                <input type="text" name="exp_location" id="exp_location" placeholder="Enter location" required="true" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                           
+                                            <div class="each-rows-inputs">
+                                                <input type="text" name="exp_specialization" id="exp_specialization" placeholder="Enter expert specialization" required="true" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-file-photo-o" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                            <div class="each-rows-inputs">
+                                                <input type="text" name="exp_email" id="exp_email" placeholder="Enter expert email" required="true" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                            <div class="each-rows-inputs">
+                                                <input type="text" name="exp_client_rating" id="exp_client_rating" placeholder="Enter client Rating" required="true" />
+                                                <span class="users-pp">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                            <div class="get-each-sec file-uplad">
+                                               <input type="file" name="file" id="file-input"><br><br>
+                                            </div>
+                                    </div>
+                                    <div class="ad-rt">
+                                       
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="exp_order_c" id="exp_order_c" placeholder="Enter Order Completed" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="exp_order_p" id="exp_order_p" placeholder="Enter Order Pending" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                            <input type="text" name="exp_status" id="exp_status" placeholder="Enter Hiring Status (1-2)" required="true" />
+                                            <span class="users-pp">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="each-rows-inputs">
+                                               <textarea placeholder="Please Expert Qualification..." name="exp_qualification" id="exp_qualification" class="textareas" required="true" ></textarea>
+                                        </div>
+                                        
+                                    </div>
+								
+								
 									<div class="submit-buttin-sections">
 										<button type="submit" class="save" name="expertsubmit">
 										   SAVE

@@ -26,14 +26,8 @@
     <div class="online-login-assigments">
         <div class="login-on-sec">
             <div class="login-images-sect">
-                <span class="login-logo-images">
-                    <img src="./assets/images/OAH Logo.png" />
-                </span>
-                <span class="login-headers">
-                    Welcome Back in OnlineAssigment
-                </span>
                 <span class="please-login-headers">
-                    Please Login to Continue
+                Please SignUp to Continue
                 </span>
             </div>
         </div>
@@ -63,11 +57,21 @@
                             </span>
 							      <span style="color:red" id="email_status"></span>
                         </div>
-                        <div class="lg-fr ">
-                            <input type="text" name="reg_phone" id="reg_phone" placeholder="Enter Phone Number" onkeyup="validatephone();" required="true" />
-                            <span class="users-pp">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                            </span>
+                        <div class="lg-fr">
+                           <div class="country-code">
+                               <select class="selects-drop">
+                                    <option>IN (+91)</option>
+                                    <option>PAK(+93)</option>
+                                    <option>AUS(+91)</option>
+                                </select>
+                           </div>
+                           <div class="phone-number-code">
+                                <input type="text" name="reg_phone" id="reg_phone" placeholder="Enter Phone Number" onkeyup="validatephone();" required="true" />
+                                <span class="users-pp">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                </span>
+                           </div>
+                            
 							      <span style="color:red" id="mobile_status"></span>
                         </div>
                         <div class="lg-fr ">

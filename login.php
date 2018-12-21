@@ -26,14 +26,8 @@
     <div class="online-login-assigments">
         <div class="login-on-sec">
             <div class="login-images-sect">
-                <span class="login-logo-images">
-                    <img src="./assets/images/OAH Logo.png" />
-                </span>
-                <span class="login-headers">
-                    Welcome Back in OnlineAssigment
-                </span>
                 <span class="please-login-headers">
-                    Please Login to Continue
+                    Please SignIn to Continue
                 </span>
             </div>
         </div>

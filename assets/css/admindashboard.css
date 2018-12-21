@@ -31,6 +31,32 @@
       transition: padding .3s linear;
       padding-left:45px;
     }
+    .ad-lt 
+    {
+        width: 50%;
+        float: left;
+        padding: 0 10px 0 0;
+    }
+    .ad-rt 
+    {
+        float: left;
+        width: 50%;
+    }
+    .get-each-sec.file-uplad {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+    .ff-sec
+    {
+        widows: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+    .ad-rt  .each-rows-inputs textarea 
+    {
+        height:100px!important;
+    }
     .site-wrapper_left-col 
     {
       position: fixed;
@@ -41,7 +67,7 @@
       bottom:50px;
       transition: width .3s ease-in-out;
       overflow: hidden;
-      z-index: 20;
+      z-index:90000;
     }
     span.exports-files 
     {
@@ -114,10 +140,11 @@
       width: 100%;
       background: #fff;
       float: left;
-      z-index: 10;
+      z-index:999;
       text-align: right;
       background: #3b9bb9;
       color:#fff;
+      z-index:9999;
     }
     .site-wrapper_top-bar a.user-images
      {
@@ -660,7 +687,7 @@ span.users-pp
     height: 40px;
     width: 35px;
     left: 0;
-    z-index: 999;
+    z-index: 99;
     border-radius: 2px 0 0 2px;
     background: #3b9bb9;
     display: flex;
@@ -688,6 +715,40 @@ span.admin-name
     padding: 12px 0 12px 10px;
     width: calc(100% - 45px);
 }
+label[for="file-input"] 
+{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #fff;
+    opacity: .9;
+    font-weight: bold;
+  }
+  
+  input[type="file"] 
+  {
+    cursor: pointer !important;
+  }
+  input[type="file"]::-webkit-file-upload-button 
+  {
+
+    background: #3b9bb9;
+    border: 0;
+    padding:10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .2em;
+  }
+  input[type="file"]::-ms-browse 
+  {
+    background:#3b9bb9;
+    border: 0;
+    padding:10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .2em;
+  }
+  
 @media screen and (max-width:767px)
 {
 
@@ -741,6 +802,11 @@ span.admin-name
   {
       height:32px!important;
       width:32px!important;
+  }
+  .ad-lt,.ad-rt
+  {
+      width:100%!important;
+      padding:0 10px 0 20px;
   }
  
 } 

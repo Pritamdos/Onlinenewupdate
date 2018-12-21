@@ -68,8 +68,10 @@
                                 </span>
                             </li>
 							<li class="contact-details">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span class="details-phone">
+                               <span class="eml">
+                                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                               </span>
+                                <span class="details-phone1">
 								   contact@onlineassignmenthelp.com
 								   support@onlineassignmenthelp.com
                                 </span>

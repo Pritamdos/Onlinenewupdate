@@ -7,8 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/font.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/animated.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/scrollanimations.css">
+ 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,6 +15,8 @@
 	<!--Date Picker CSS File--->
 	<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.common-material.min.css" />
     <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.material.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/animated.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/scrollanimations.css">
 
 </head>
 <body> 
@@ -24,13 +25,13 @@
         <div class="onl-inrs-banner-sections">
             <div class="onl-sub-inners-sec">
                 <div class="onl-sub-inners-left-section">
-                    <span class="welcome-online-help animated fadeInLeft">
+                    <span class="welcome-online-help animatable fadeInLeft">
                         Why Choose Mediocre Assignment Help When You Can Get Assistance from the Best Minds Get 24x7 Assignment Writing Assistance
                         from 3500+ PhD Qualified Writers Across The World
                     </span>
                 </div>
                 <div class="only-sub-inners-right-sections">
-                    <div class="only-sub-form-sec  animated fadeInRight">
+                    <div class="only-sub-form-sec  animatable fadeInRight">
                         <div class="only-sub-inner-form-sec">
                             <span class="thumb-sc">
                                 <span class="thumb-icons">
@@ -41,7 +42,7 @@
 								<span class="header-content-sections">
                                     Best Online Assignment Help
                                 </span>
-                                <span class="on-sub-headers animated zoomIn">
+                                <span class="on-sub-headers animatable zoomIn">
                                     Over 270k Satisfied Students Worldwide
                                 </span>
                                 <div class="form-inner-sections">

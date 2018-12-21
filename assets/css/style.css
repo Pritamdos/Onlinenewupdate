@@ -25,11 +25,11 @@ body
     float: left;
     margin: 0;
     padding: 0;
-    background-image: url('./../images/ABOUT US.jpg');
+    background-image: url('./../images/Home\ Page\ Banner.png');
     background-attachment: fixed;
     background-size:cover;
     position: relative;
-    height:100vh;
+    height:85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1255,7 +1255,7 @@ span.card-logos
     display: flex;
     justify-content:center;
     align-items: center;
-    background: #3b9bb9;
+    background: #d1e8e2;
     color:#fff;
     font-size:36px;
 }
@@ -1846,7 +1846,17 @@ span.card-logos
         display: flex;
         justify-content: center;
         align-items: center;
-        height:350px;
+        height:200px;
+    }
+    .eml
+    {
+        float: left;
+    }
+    .details-phone1
+    {
+        width:calc(100% - 20px);
+        float: left;
+        padding-left: 10px;
     }
     .login-on-sec 
     {
@@ -1865,6 +1875,11 @@ span.card-logos
         align-items: center;
         flex: 1;
         flex-direction: column;
+        margin-top:10px;
+    }
+    .flickity-page-dots .dot
+    {
+        display:none!important;
     }
       span.login-logo-images 
       {
@@ -1911,10 +1926,10 @@ span.card-logos
     }
     .lg-sg-form-ins
      {
-        width:750px;
+        width:850px;
         margin: 0 auto;
         position: relative;
-        top: -50px;
+        top: -60px;
     }
     .lg-sub-inners
     {
@@ -2810,7 +2825,7 @@ span.users-pp
     height: 40px;
     width: 35px;
     left: 0;
-    z-index: 999;
+    z-index: 99;
     border-radius: 2px 0 0 2px;
     background: #3b9bb9;
     display: flex;
@@ -2852,7 +2867,7 @@ span.users-pp
 }
 .card-inner-section:hover,.card-inner-section-work:hover,.card-inner-section-assignment:hover
 {
-    background: rgba(59, 155, 185,0.7);
+    background:#ffcb9a;
     transition:0.5s ease;
 }
 .card-inner-section:hover .card-sp,.card-inner-section-work:hover .inner-test ul li,.card-inner-section-assignment:hover .card-online-list ul li,
@@ -2878,6 +2893,53 @@ span.users-pp
     -webkit-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
     box-shadow: -5px -5px 61px 0px rgba(0,0,0,0.75);
+}
+li.news-list-li
+{
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #666;
+    padding-left: 20px;
+    position: relative;
+}
+li.news-list-li:before
+{
+    height: 8px;
+    width: 8px;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    float: left;
+    background: #666;
+    left: 6px;
+    top: 5px;
+}
+.phone-number-code 
+{
+    width: 70%;
+    float: left;
+    position: relative;
+}
+.country-code select.selects-drop
+{
+   height:40px!important;
+}
+.country-code 
+{
+    width: 30%;
+    float: left;
+    padding-right:10px;
+}
+ul.news-list-li 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .connect-width-experts 
 {
